@@ -59,6 +59,7 @@ const Sidebar = () => {
               </p>
             </div>
           </div>
+
           {/* Close button on mobile */}
           <button
             onClick={() => setMobileOpen(false)}
