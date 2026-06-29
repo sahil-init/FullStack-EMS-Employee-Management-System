@@ -19,10 +19,10 @@ app.use(multer().none());
 
 // Routes
 app.get('/', (req, res) => res.send('Server is running'));
-appp.use('/api/auth', authRouter);
-appp.use('/api/employees', employeesRouter);
-appp.use('/api/profile', profileRouter);
-appp.use('/api/attendance', attendanceRouter);
+app.use('/api/auth', authRouter);
+app.use('/api/employees', employeesRouter);
+app.use('/api/profile', profileRouter);
+app.use('/api/attendance', attendanceRouter);
 
 await connectDB();
 
