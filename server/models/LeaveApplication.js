@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const LeaveAppicationSchema = new mongoose.Schema(
+const leaveApplicationSchema = new mongoose.Schema(
   {
     employeeId: {
       type: mongoose.Schema.Types.ObjectId,
@@ -22,6 +22,6 @@ const LeaveAppicationSchema = new mongoose.Schema(
 
 const LeaveApplication =
   mongoose.models.LeaveApplication ||
-  mongoose.model('LeaveApplication', LeaveApplicationSchema);
+  mongoose.model('LeaveApplication', leaveApplicationSchema);
 
 export default LeaveApplication;
