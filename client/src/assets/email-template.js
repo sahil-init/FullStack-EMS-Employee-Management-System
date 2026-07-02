@@ -1,5 +1,4 @@
 // Attendence Check-Out Remainder email template
-
 const template1 = `
                 <div style="max-width: 600px;">
                     <h2>Hi ${employee.firstName}, 👋</h2>
@@ -11,7 +10,7 @@ const template1 = `
                     <p style="font-size: 16px;">Best Regards,</p>
                     <p style="font-size: 16px;">EMS</p>
                 </div>
-            `
+            `;
 
 // Leave Application Reminder email template
 const template2 = `
@@ -24,7 +23,7 @@ const template2 = `
                 <p style="font-size: 16px;">Best Regards,</p>
                 <p style="font-size: 16px;">EMS</p>
             </div>
-        `
+        `;
 
 // Attendance Reminder
 const template3 = `
@@ -39,4 +38,4 @@ const template3 = `
                                 <p style="font-size: 16px;">Best Regards,</p>
                                 <p style="font-size: 16px;"><strong>QuickEMS</strong></p>
                             </div>
-                        `
+                        `;
