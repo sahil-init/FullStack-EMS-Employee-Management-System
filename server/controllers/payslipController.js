@@ -46,6 +46,7 @@ export const getPayslips = async (req, res) => {
         return {
           ...obj,
           id: obj._id.toString(),
+          employee: obj.employeeId,
           employeeId: obj.employeeId?._id?.toString(),
         };
       });
